@@ -9,6 +9,9 @@ import SwiftUI
 import SwiftUIX
 
 struct ContentView: View {
+    
+    @State var show = false
+    
     var body: some View {
         ZStack {
 
@@ -20,9 +23,32 @@ struct ContentView: View {
             
             content //the whole VStack
             
+            
+            cardView
+            
+            
         } //ZStack
+        .onTapGesture {
+            show.toggle()
+        }
         
         
+    }
+    
+    var cardView: some View {
+        VisualEffectBlurView(blurStyle: .systemUltraThinMaterialLight, vibrancyStyle: .fill, content: {
+            Text("UI Design").bold()
+        })
+        .frame(maxWidth: .infinity, maxHeight: show ? 400 : 220)
+        .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
+        .overlay(
+            RoundedRectangle(
+                cornerRadius: 30,
+                style: .continuous)
+                .stroke(lineWidth: 0.5)
+                .fill(Color.white))
+        .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 10 )
+        .padding()
     }
     
     var backGround: some View {
@@ -44,6 +70,7 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 300, height: 300)
                 .opacity(0.7)
+                .offset(y: -150)
         }
         .ignoresSafeArea()
     }
