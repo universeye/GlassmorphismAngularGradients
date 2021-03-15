@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .leading, spacing: 16) {
+            Text("Terry Kuo".uppercased())
+                .font(.footnote).fontWeight(.semibold)
+            Text("I teach designers and developers")
+                .font(.title).bold()
+            Text("Awarded 10 certificates since September 2020")
+                .font(.footnote)
+            
+            HStack {
+                Image(systemName: "link")
+                Text("dzhiphop.com")
+            }
+            .font(.footnote)
+        }
     }
 }
 
