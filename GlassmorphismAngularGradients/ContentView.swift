@@ -11,6 +11,7 @@ import SwiftUIX
 struct ContentView: View {
     
     @State var show = false
+    @State var viewState = CGSize.zero
     
     var body: some View {
         ZStack {
@@ -19,14 +20,37 @@ struct ContentView: View {
             
             content //the whole VStack
             
-            cardView
-                .onTapGesture {
-                    withAnimation(.spring()) {
-                    show.toggle()
-                    }
+            VStack {
+                Spacer()
+                ZStack{
+                    cardView
+                        .offset(x: 0, y: -40)
+                        .padding(20)
+                        .offset(x: viewState.width, y: viewState.height)
+                        .animation(.easeInOut(duration: 0.6))
+                    cardView
+                        .offset(x: 0, y: -20)
+                        .padding(10)
+                        .offset(x: viewState.width, y: viewState.height)
+                        .animation(.easeInOut(duration: 0.4))
+                    cardView
+                        .offset(x: viewState.width, y: viewState.height)
+                        .animation(.spring())
+                        .gesture(DragGesture()
+                                    .onChanged({ (value) in
+                                                viewState = value.translation})
+                                    .onEnded({ (value) in
+                                                viewState = .zero}))
+                        .onTapGesture {
+                            withAnimation(.spring()) {
+                                show.toggle()
+                            }
+                        }
                 }
+            }
             
         } //ZStack
+
         
     }
     
@@ -44,7 +68,7 @@ struct ContentView: View {
                 .fill(Color.white))
         .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 10 )
         .padding()
-        .padding(.top, 330)
+        
     }
     
     var backGround: some View {
@@ -92,11 +116,14 @@ struct ContentView: View {
             
             Text("Terry Kuo".uppercased())
                 .font(.footnote).fontWeight(.semibold)
+                .foregroundColor(.black)
             Text("I teach designers and developers")
                 .font(.title).bold()
                 .frame(width: 350, height: 80, alignment: .leading)
+                .foregroundColor(.black)
             Text("Awarded 10 certificates since September 2020")
                 .font(.footnote)
+                .foregroundColor(.black)
             
             HStack {
                 Image(systemName: "link")
