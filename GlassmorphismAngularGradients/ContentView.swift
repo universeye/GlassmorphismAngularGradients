@@ -17,21 +17,16 @@ struct ContentView: View {
 
             backGround
             
-            
-            
-            
-            
             content //the whole VStack
             
-            
             cardView
-            
+                .onTapGesture {
+                    withAnimation(.spring()) {
+                    show.toggle()
+                    }
+                }
             
         } //ZStack
-        .onTapGesture {
-            show.toggle()
-        }
-        
         
     }
     
@@ -49,6 +44,7 @@ struct ContentView: View {
                 .fill(Color.white))
         .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 10 )
         .padding()
+        .padding(.top, 330)
     }
     
     var backGround: some View {
@@ -70,7 +66,7 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 300, height: 300)
                 .opacity(0.7)
-                .offset(y: -150)
+                .offset(x:show ? 0 : 10 ,y: show ? -60 : -100)
         }
         .ignoresSafeArea()
     }
@@ -81,7 +77,7 @@ struct ContentView: View {
             Image("Avatar")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 26, height: 26)
+                .frame(width: 33, height: 33)
                 .mask(Circle())
                 .padding()
                 
@@ -92,7 +88,7 @@ struct ContentView: View {
                             .stroke(lineWidth: 0.5)
                             .fill(Color.white))
                 .background(avatarBlurCircleView2
-                                .offset(x: -20, y: -20))
+                                .offset(x: show ? -24 : -20, y: show ? -10 : -20))
             
             Text("Terry Kuo".uppercased())
                 .font(.footnote).fontWeight(.semibold)
