@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFA1854225FF7A2C00FC787D /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1854125FF7A2C00FC787D /* SwiftUIX */; };
 		BFD835BB25FF38650012EA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD835BA25FF38650012EA29 /* AppDelegate.swift */; };
 		BFD835BD25FF38650012EA29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD835BC25FF38650012EA29 /* SceneDelegate.swift */; };
 		BFD835BF25FF38650012EA29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD835BE25FF38650012EA29 /* ContentView.swift */; };
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA1854225FF7A2C00FC787D /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = GlassmorphismAngularGradients;
+			packageProductDependencies = (
+				BFA1854125FF7A2C00FC787D /* SwiftUIX */,
+			);
 			productName = GlassmorphismAngularGradients;
 			productReference = BFD835B725FF38650012EA29 /* GlassmorphismAngularGradients.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +228,9 @@
 				Base,
 			);
 			mainGroup = BFD835AE25FF38650012EA29;
+			packageReferences = (
+				BFA1854025FF7A2C00FC787D /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = BFD835B825FF38650012EA29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -597,6 +605,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFA1854025FF7A2C00FC787D /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFA1854125FF7A2C00FC787D /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1854025FF7A2C00FC787D /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFD835AF25FF38650012EA29 /* Project object */;
 }
