@@ -92,7 +92,9 @@ struct ContentView: View {
                 .opacity(0.7)
                 .offset(x:show ? 0 : 10 ,y: show ? -60 : -100)
         }
+        
         .ignoresSafeArea()
+        .hueRotation(.degrees(show ? -90 : 0))
     }
     
     var content: some View {
@@ -112,12 +114,14 @@ struct ContentView: View {
                             .stroke(lineWidth: 0.5)
                             .fill(Color.white))
                 .background(avatarBlurCircleView2
-                                .offset(x: show ? -24 : -20, y: show ? -10 : -20))
+                                .offset(x: show ? -24 : -20, y: show ? -10 : -20)
+                                .hueRotation(.degrees(show ? -90 : 0))
+                )
             
             Text("Terry Kuo".uppercased())
                 .font(.footnote).fontWeight(.semibold)
                 .foregroundColor(.black)
-            Text("I teach designers and developers")
+            Text("An iOS Developer addicted to SwiftUI")
                 .font(.title).bold()
                 .frame(width: 350, height: 80, alignment: .leading)
                 .foregroundColor(.black)
@@ -130,6 +134,7 @@ struct ContentView: View {
                 Text("dzhiphop.com")
             }
             .font(.footnote)
+            .foregroundColor(.black)
             
             Spacer()
         } //VStack
