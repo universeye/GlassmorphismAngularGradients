@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD835BB25FF38650012EA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD835BA25FF38650012EA29 /* AppDelegate.swift */; };
+		BFD835BD25FF38650012EA29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD835BC25FF38650012EA29 /* SceneDelegate.swift */; };
+		BFD835BF25FF38650012EA29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD835BE25FF38650012EA29 /* ContentView.swift */; };
+		BFD835C125FF38670012EA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD835C025FF38670012EA29 /* Assets.xcassets */; };
+		BFD835C425FF38670012EA29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD835C325FF38670012EA29 /* Preview Assets.xcassets */; };
+		BFD835C725FF38670012EA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD835C525FF38670012EA29 /* LaunchScreen.storyboard */; };
+		BFD835D225FF38670012EA29 /* GlassmorphismAngularGradientsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD835D125FF38670012EA29 /* GlassmorphismAngularGradientsTests.swift */; };
+		BFD835DD25FF38670012EA29 /* GlassmorphismAngularGradientsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD835DC25FF38670012EA29 /* GlassmorphismAngularGradientsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD835CE25FF38670012EA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD835AF25FF38650012EA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD835B625FF38650012EA29;
+			remoteInfo = GlassmorphismAngularGradients;
+		};
+		BFD835D925FF38670012EA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD835AF25FF38650012EA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD835B625FF38650012EA29;
+			remoteInfo = GlassmorphismAngularGradients;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFD835B725FF38650012EA29 /* GlassmorphismAngularGradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassmorphismAngularGradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD835BA25FF38650012EA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD835BC25FF38650012EA29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFD835BE25FF38650012EA29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFD835C025FF38670012EA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD835C325FF38670012EA29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFD835C625FF38670012EA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD835C825FF38670012EA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD835CD25FF38670012EA29 /* GlassmorphismAngularGradientsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassmorphismAngularGradientsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD835D125FF38670012EA29 /* GlassmorphismAngularGradientsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphismAngularGradientsTests.swift; sourceTree = "<group>"; };
+		BFD835D325FF38670012EA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD835D825FF38670012EA29 /* GlassmorphismAngularGradientsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassmorphismAngularGradientsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD835DC25FF38670012EA29 /* GlassmorphismAngularGradientsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphismAngularGradientsUITests.swift; sourceTree = "<group>"; };
+		BFD835DE25FF38670012EA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD835B425FF38650012EA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD835CA25FF38670012EA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD835D525FF38670012EA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD835AE25FF38650012EA29 = {
+			isa = PBXGroup;
+			children = (
+				BFD835B925FF38650012EA29 /* GlassmorphismAngularGradients */,
+				BFD835D025FF38670012EA29 /* GlassmorphismAngularGradientsTests */,
+				BFD835DB25FF38670012EA29 /* GlassmorphismAngularGradientsUITests */,
+				BFD835B825FF38650012EA29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD835B825FF38650012EA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD835B725FF38650012EA29 /* GlassmorphismAngularGradients.app */,
+				BFD835CD25FF38670012EA29 /* GlassmorphismAngularGradientsTests.xctest */,
+				BFD835D825FF38670012EA29 /* GlassmorphismAngularGradientsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD835B925FF38650012EA29 /* GlassmorphismAngularGradients */ = {
+			isa = PBXGroup;
+			children = (
+				BFD835BA25FF38650012EA29 /* AppDelegate.swift */,
+				BFD835BC25FF38650012EA29 /* SceneDelegate.swift */,
+				BFD835BE25FF38650012EA29 /* ContentView.swift */,
+				BFD835C025FF38670012EA29 /* Assets.xcassets */,
+				BFD835C525FF38670012EA29 /* LaunchScreen.storyboard */,
+				BFD835C825FF38670012EA29 /* Info.plist */,
+				BFD835C225FF38670012EA29 /* Preview Content */,
+			);
+			path = GlassmorphismAngularGradients;
+			sourceTree = "<group>";
+		};
+		BFD835C225FF38670012EA29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFD835C325FF38670012EA29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFD835D025FF38670012EA29 /* GlassmorphismAngularGradientsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD835D125FF38670012EA29 /* GlassmorphismAngularGradientsTests.swift */,
+				BFD835D325FF38670012EA29 /* Info.plist */,
+			);
+			path = GlassmorphismAngularGradientsTests;
+			sourceTree = "<group>";
+		};
+		BFD835DB25FF38670012EA29 /* GlassmorphismAngularGradientsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD835DC25FF38670012EA29 /* GlassmorphismAngularGradientsUITests.swift */,
+				BFD835DE25FF38670012EA29 /* Info.plist */,
+			);
+			path = GlassmorphismAngularGradientsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD835B625FF38650012EA29 /* GlassmorphismAngularGradients */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD835E125FF38670012EA29 /* Build configuration list for PBXNativeTarget "GlassmorphismAngularGradients" */;
+			buildPhases = (
+				BFD835B325FF38650012EA29 /* Sources */,
+				BFD835B425FF38650012EA29 /* Frameworks */,
+				BFD835B525FF38650012EA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlassmorphismAngularGradients;
+			productName = GlassmorphismAngularGradients;
+			productReference = BFD835B725FF38650012EA29 /* GlassmorphismAngularGradients.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD835CC25FF38670012EA29 /* GlassmorphismAngularGradientsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD835E425FF38670012EA29 /* Build configuration list for PBXNativeTarget "GlassmorphismAngularGradientsTests" */;
+			buildPhases = (
+				BFD835C925FF38670012EA29 /* Sources */,
+				BFD835CA25FF38670012EA29 /* Frameworks */,
+				BFD835CB25FF38670012EA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD835CF25FF38670012EA29 /* PBXTargetDependency */,
+			);
+			name = GlassmorphismAngularGradientsTests;
+			productName = GlassmorphismAngularGradientsTests;
+			productReference = BFD835CD25FF38670012EA29 /* GlassmorphismAngularGradientsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFD835D725FF38670012EA29 /* GlassmorphismAngularGradientsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD835E725FF38670012EA29 /* Build configuration list for PBXNativeTarget "GlassmorphismAngularGradientsUITests" */;
+			buildPhases = (
+				BFD835D425FF38670012EA29 /* Sources */,
+				BFD835D525FF38670012EA29 /* Frameworks */,
+				BFD835D625FF38670012EA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD835DA25FF38670012EA29 /* PBXTargetDependency */,
+			);
+			name = GlassmorphismAngularGradientsUITests;
+			productName = GlassmorphismAngularGradientsUITests;
+			productReference = BFD835D825FF38670012EA29 /* GlassmorphismAngularGradientsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD835AF25FF38650012EA29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BFD835B625FF38650012EA29 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BFD835CC25FF38670012EA29 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BFD835B625FF38650012EA29;
+					};
+					BFD835D725FF38670012EA29 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BFD835B625FF38650012EA29;
+					};
+				};
+			};
+			buildConfigurationList = BFD835B225FF38650012EA29 /* Build configuration list for PBXProject "GlassmorphismAngularGradients" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD835AE25FF38650012EA29;
+			productRefGroup = BFD835B825FF38650012EA29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD835B625FF38650012EA29 /* GlassmorphismAngularGradients */,
+				BFD835CC25FF38670012EA29 /* GlassmorphismAngularGradientsTests */,
+				BFD835D725FF38670012EA29 /* GlassmorphismAngularGradientsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD835B525FF38650012EA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD835C725FF38670012EA29 /* LaunchScreen.storyboard in Resources */,
+				BFD835C425FF38670012EA29 /* Preview Assets.xcassets in Resources */,
+				BFD835C125FF38670012EA29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD835CB25FF38670012EA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD835D625FF38670012EA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD835B325FF38650012EA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD835BB25FF38650012EA29 /* AppDelegate.swift in Sources */,
+				BFD835BD25FF38650012EA29 /* SceneDelegate.swift in Sources */,
+				BFD835BF25FF38650012EA29 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD835C925FF38670012EA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD835D225FF38670012EA29 /* GlassmorphismAngularGradientsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD835D425FF38670012EA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD835DD25FF38670012EA29 /* GlassmorphismAngularGradientsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD835CF25FF38670012EA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD835B625FF38650012EA29 /* GlassmorphismAngularGradients */;
+			targetProxy = BFD835CE25FF38670012EA29 /* PBXContainerItemProxy */;
+		};
+		BFD835DA25FF38670012EA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD835B625FF38650012EA29 /* GlassmorphismAngularGradients */;
+			targetProxy = BFD835D925FF38670012EA29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFD835C525FF38670012EA29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD835C625FF38670012EA29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD835DF25FF38670012EA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFD835E025FF38670012EA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD835E225FF38670012EA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GlassmorphismAngularGradients/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GlassmorphismAngularGradients/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.GlassmorphismAngularGradients;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD835E325FF38670012EA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GlassmorphismAngularGradients/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GlassmorphismAngularGradients/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.GlassmorphismAngularGradients;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFD835E525FF38670012EA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				INFOPLIST_FILE = GlassmorphismAngularGradientsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.GlassmorphismAngularGradientsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlassmorphismAngularGradients.app/GlassmorphismAngularGradients";
+			};
+			name = Debug;
+		};
+		BFD835E625FF38670012EA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				INFOPLIST_FILE = GlassmorphismAngularGradientsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.GlassmorphismAngularGradientsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlassmorphismAngularGradients.app/GlassmorphismAngularGradients";
+			};
+			name = Release;
+		};
+		BFD835E825FF38670012EA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				INFOPLIST_FILE = GlassmorphismAngularGradientsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.GlassmorphismAngularGradientsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlassmorphismAngularGradients;
+			};
+			name = Debug;
+		};
+		BFD835E925FF38670012EA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				INFOPLIST_FILE = GlassmorphismAngularGradientsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.GlassmorphismAngularGradientsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlassmorphismAngularGradients;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD835B225FF38650012EA29 /* Build configuration list for PBXProject "GlassmorphismAngularGradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD835DF25FF38670012EA29 /* Debug */,
+				BFD835E025FF38670012EA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD835E125FF38670012EA29 /* Build configuration list for PBXNativeTarget "GlassmorphismAngularGradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD835E225FF38670012EA29 /* Debug */,
+				BFD835E325FF38670012EA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD835E425FF38670012EA29 /* Build configuration list for PBXNativeTarget "GlassmorphismAngularGradientsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD835E525FF38670012EA29 /* Debug */,
+				BFD835E625FF38670012EA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD835E725FF38670012EA29 /* Build configuration list for PBXNativeTarget "GlassmorphismAngularGradientsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD835E825FF38670012EA29 /* Debug */,
+				BFD835E925FF38670012EA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFD835AF25FF38650012EA29 /* Project object */;
+}
