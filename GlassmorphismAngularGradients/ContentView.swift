@@ -10,9 +10,14 @@ import SwiftUIX
 
 struct ContentView: View {
     
+    
+    //MARK: - Properties
+
     @State var show = false
     @State var viewState = CGSize.zero
     
+    //MARK: - Body
+
     var body: some View {
         ZStack {
 
@@ -54,6 +59,7 @@ struct ContentView: View {
         
     }
     
+    //MARK: - Card View
     var cardView: some View {
         VisualEffectBlurView(blurStyle: .systemUltraThinMaterialLight, vibrancyStyle: .fill, content: {
             Text("UI Design").bold()
@@ -71,6 +77,7 @@ struct ContentView: View {
         
     }
     
+    //MARK: - Background View
     var backGround: some View {
         ZStack {
             AngularGradient(gradient: Gradient(
@@ -97,6 +104,9 @@ struct ContentView: View {
         .hueRotation(.degrees(show ? -90 : 0))
     }
     
+    
+    
+    //MARK: - App Contents
     var content: some View {
         VStack(alignment: .leading, spacing: 16) {
             
@@ -130,8 +140,25 @@ struct ContentView: View {
                 .foregroundColor(.black)
             
             HStack {
+                Link(destination: URL(string: "https://twitter.com/ArgonYoYo")!, label: {
+                    Image("twitterlogo")
+                        .renderingMode(.template)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 20)
+                })
+                Link(destination: URL(string: "https://github.com/universeye")!, label: {
+                    Image("GitHub-Mark")
+                        .renderingMode(.template)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 25)
+                })
+                
                 Image(systemName: "link")
-                Text("dzhiphop.com")
+                Link(destination: URL(string: "www.dzhiphop.com")!, label: {
+                    Text("dzhiphop.com")
+                })
             }
             .font(.footnote)
             .foregroundColor(.black)
@@ -140,6 +167,9 @@ struct ContentView: View {
         } //VStack
     } // content Some View
     
+    
+    
+    //MARK: - Avatar Circle View
     var avatarBlurCircleView: some View {
         AngularGradient(
             gradient: Gradient(
@@ -179,6 +209,9 @@ struct ContentView: View {
     } //avatarBlurCircleView2
 }
 
+
+
+//MARK: - Preview
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
